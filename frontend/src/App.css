@@ -1,0 +1,165 @@
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.logo-container h1 {
+  font-size: 24px;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto auto;
+  padding: 0 20px;
+  
+}
+
+.translator {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.language-select {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Added for responsiveness */
+}
+
+.select-group {
+  width: 45%;
+  margin-bottom: 10px; /* Ensure spacing on smaller screens */
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: block;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Ensure select is accessible */
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.swap-btn {
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0; /* Ensure spacing on smaller screens */
+}
+
+.swap-btn:hover {
+  background-color: #e0a800;
+}
+
+swap-btn:focus {
+  outline: 2px solid #ffc107;
+}
+
+textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  color: #333;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+/* Ensure textarea is accessible */
+textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.controls {
+  text-align: center;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Ensure spacing on smaller screens */
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:focus {
+  outline: 2px solid #0056b3;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.output textarea {
+  height: 200px;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .select-group {
+      width: 100%;
+  }
+
+  .btn {
+      width: 100%;
+      margin-right: 0;
+  }
+}
+
+
+
+.div-main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
